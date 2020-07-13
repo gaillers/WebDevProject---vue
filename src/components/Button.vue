@@ -1,7 +1,5 @@
 <template>
-  <button
-   :class="className"
-   class="btn-main">
+  <button :class="className" class="btn-main">
     <span>
       {{ btnText }}
     </span>
@@ -20,11 +18,16 @@ export default {
       type: Boolean,
       default: false,
     },
+    white: {
+      type: Boolean,
+      default: false,
+    },
   },
   computed: {
     className() {
       return {
         'btn-main__border': this.border,
+        'btn-main__white': this.white,
       };
     },
   },
@@ -64,6 +67,24 @@ export default {
       font-weight: bold;
       letter-spacing: 1px;
       color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+  &__white {
+    width: 220px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 21.5%;
+    & span {
+      width: 128px;
+      height: 14px;
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #000;
       text-transform: uppercase;
     }
   }
