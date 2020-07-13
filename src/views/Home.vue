@@ -1,18 +1,18 @@
 <template>
-  <main>
+  <div>
     <Header/>
-    <SectionMain/>
-  </main>
+    <ContainerMain/>
+  </div>
 </template>
 
 <script>
 import Header from '../components/header/Header'
-import SectionMain from '../container/SectionMain'
+import ContainerMain from '../container/ContainerMain'
 export default {
  name: 'Home',
  components: {
     Header,
-    SectionMain,
+    ContainerMain,
  }
 }
 </script>

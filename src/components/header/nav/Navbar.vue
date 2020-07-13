@@ -38,13 +38,4 @@ export default {
     color: #212121;
   }
 }
-
-// zeroing
-ul[class],
-ol[class],
-li {
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-}
 </style>

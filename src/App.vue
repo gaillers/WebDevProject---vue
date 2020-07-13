@@ -17,7 +17,20 @@ export default {
 </script>
 
 <style lang="scss">
-body {
+body,
+p,
+h1,
+h2,
+h3,
+ul[class],
+ol[class],
+li {
   margin: 0;
+}
+ul[class],
+ol[class],
+li {
+  padding: 0;
+  list-style-type: none;
 }
 </style>
