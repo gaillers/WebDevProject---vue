@@ -3,6 +3,7 @@
    <div class="main__container">
      <TitleMain/>
      <TextMain/>
+     <ArticleTitle titles="about us"/>
    </div>
   </section>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import TitleMain from '../components/main/TitleMain'
 import TextMain from '../components/main/TextMain'
+import ArticleTitle from '../components/ArticleTitle'
 
 export default {
  name: 'ContainerMain',
  components: {
   TitleMain,
   TextMain,
+  ArticleTitle
  }
 };
 </script>
