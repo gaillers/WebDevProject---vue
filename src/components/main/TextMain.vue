@@ -17,5 +17,6 @@ export default {};
   letter-spacing: 1.1px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 110px;
 }
 </style>

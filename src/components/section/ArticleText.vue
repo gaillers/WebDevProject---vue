@@ -3,7 +3,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    'text': String,
+  },
+};
 </script>
 
 <style lang="scss">
