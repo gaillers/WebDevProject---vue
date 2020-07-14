@@ -1,5 +1,5 @@
 <template>
-  <h2 class="section-main__title">{{ titles }}</h2>
+  <h2 class="section-main__titles">{{ titles }}</h2>
 </template>
 
 <script>
@@ -11,7 +11,9 @@ export default {
 </script>
 
 <style lang="scss">
-.section-main__title {
+.section-main__titles {
+  width: 147px;
+  height: 23px;
   font-family: 'OpenSans';
   font-size: 30px;
   font-weight: bold;
@@ -19,5 +21,7 @@ export default {
   letter-spacing: 1.5px;
   text-align: center;
   color: #212121;
+  margin: 0 auto;
+  margin-bottom: 36px;
 }
 </style>

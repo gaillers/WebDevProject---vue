@@ -1,19 +1,19 @@
 <template>
-  <p class="section-main__text">{{ text }}</p>
+  <p class="section-main__text-aside">{{ asideText }}</p>
 </template>
 
 <script>
 export default {
   props: {
-    'text': String,
+    asideText: String,
   },
 };
 </script>
 
 <style lang="scss">
-.section-main__text {
-  width: 620px;
-  height: 38px;
+.section-main__text-aside {
+  width: 254px;
+  height: 60px;
   font-family: 'OpenSans';
   font-size: 15px;
   line-height: 1.47;
