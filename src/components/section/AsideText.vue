@@ -1,5 +1,5 @@
 <template>
-  <p class="section-main__text-aside">{{ asideText }}</p>
+  <p class="text-aside">{{ asideText }}</p>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-.section-main__text-aside {
+.text-aside {
   width: 254px;
   height: 60px;
   font-family: 'OpenSans';

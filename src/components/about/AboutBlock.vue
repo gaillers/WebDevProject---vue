@@ -13,6 +13,9 @@ import AboutItem from '../about/item/AboutItem'
 
 export default {
  name: 'AboutBlock',
+ components: {
+   AboutItem,
+ },
  data(){
    return{
     InfoItems:[
@@ -37,10 +40,6 @@ export default {
     ]
    }
  },
- 
- components: {
-   AboutItem,
- }
 };
 </script>
 
@@ -49,7 +48,6 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 1060px;
-  height: 200px;
   padding-top: 125px;
   margin: 0 auto;
 }

@@ -1,8 +1,8 @@
 <template>
   <div class="about-wrapper__item">
-     <img class="item__images" :src=" require('../../../assets/images/' +  InfoItem_data.images)" alt="img">
-     <h3 class="item__title">{{ InfoItem_data.title }}</h3>
-     <p class="item__text">{{ InfoItem_data.text }}</p>
+     <img class="item-about__images" :src=" require('../../../assets/images/' +  InfoItem_data.images)" alt="img">
+     <h3 class="item-about__title">{{ InfoItem_data.title }}</h3>
+     <p class="item-about__text">{{ InfoItem_data.text }}</p>
   </div>
 </template>
 
@@ -20,30 +20,20 @@ export default {
      }
   }
  },
- data(){
-    return{
-
-    }
- },
- computed:{
-
- },
- components: {
-
- }
 }
 </script>
 
 <style lang="scss" scoped>
 .about-wrapper__item{
    width: 260px;
+   height: 210px;
 }
-.item__images{
+.item-about__images{
    display: flex;
    margin: 0 auto;
    margin-bottom: 40px;
 }
-.item__title{
+.item-about__title{
   width: 260px;
   height: 19px;
   font-family: 'OpenSans';
@@ -55,7 +45,7 @@ export default {
   color: #212121;
   margin-bottom: 26px;
 }
-.item__text {
+.item-about__text {
   width: 254px;
   height: 60px;
   font-family: 'OpenSans';

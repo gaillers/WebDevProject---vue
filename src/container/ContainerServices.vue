@@ -1,11 +1,11 @@
 <template>
-  <section class="about">
-    <div class="about__container">
-      <ArticleTitle title="About us" />
+  <section class="services">
+    <div class="services__container">
+      <ArticleTitle title="Our Services" />
       <ArticleText
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
       />
-      <AboutBlock/>
+      <ServicesCatalog/>
     </div>
   </section>
 </template>
@@ -13,29 +13,28 @@
 <script>
 import ArticleTitle from '../components/section/ArticleTitle';
 import ArticleText from '../components/section/ArticleText';
-import AboutBlock from '../components/about/AboutBlock'
-
+import ServicesCatalog from '../components/services/ServicesCatalog'
 export default {
-  name: 'ContainerAbout',
+  name: 'ContainerServices',
   components: {
     ArticleTitle,
     ArticleText,
-    AboutBlock
-
+    ServicesCatalog,
   },
 };
 </script>
 
 <style lang="scss">
-.about {
+.services {
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 680px;
+  height: 1380px;
+  background-color: #e4fdf9;
 }
-.about__container {
-  width: 1115px;
-  height: 430px;
+.services__container {
+  width: 1170px;
+  height: 1130px;
   padding-top: 125px;
   margin-bottom: 125px;
 }

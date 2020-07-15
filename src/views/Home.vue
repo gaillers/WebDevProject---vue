@@ -3,6 +3,7 @@
     <Header/>
     <ContainerMain/>
     <ContainerAbout/>
+    <ContainerServices/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from '../components/header/Header'
 import ContainerMain from '../container/ContainerMain'
 import ContainerAbout from '../container/ContainerAbout'
+import ContainerServices from '../container/ContainerServices'
 
 export default {
  name: 'Home',
@@ -17,6 +19,7 @@ export default {
     Header,
     ContainerMain,
     ContainerAbout,
+    ContainerServices,
  }
 }
 </script>

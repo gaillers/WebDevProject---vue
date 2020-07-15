@@ -1,5 +1,5 @@
 <template>
-  <h3 class="section-main__title-aside">{{ asideTitle }}</h3>
+  <h3 class="title-aside">{{ asideTitle }}</h3>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-.section-main__title-aside {
+.title-aside {
   width: 260px;
   height: 19px;
   font-family: 'OpenSans';

@@ -1,18 +1,18 @@
 <template>
-  <h2 class="section-main__titles">{{ titles }}</h2>
+  <h2 class="title">{{ title }}</h2>
 </template>
 
 <script>
 export default {
   props: {
-    'titles': String,
+    'title': String,
   },
 };
 </script>
 
 <style lang="scss">
-.section-main__titles {
-  width: 147px;
+.title {
+  width: 300px;
   height: 23px;
   font-family: 'OpenSans';
   font-size: 30px;

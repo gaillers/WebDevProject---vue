@@ -1,5 +1,5 @@
 <template>
-  <p class="section-main__text">{{ text }}</p>
+  <p class="text">{{ text }}</p>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss">
-.section-main__text {
+.text {
   width: 620px;
   height: 38px;
   font-family: 'OpenSans';
