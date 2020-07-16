@@ -3,17 +3,17 @@
     <img class="item-services__images" :src=" require('../../../assets/images/' +  CatalogItem_data.images)" alt="png">
     <h3 class="item-services__title">{{ CatalogItem_data.title }}</h3>
     <p class="item-services__text">{{ CatalogItem_data.text }}</p>
-    <ButtonReadMore btnServ="read more"/>
+    <Button :readMore="true" btnText="read more"/>
   </div>
 </template>
 
 <script>
-import ButtonReadMore from '../ButtonReadMore'
+import Button from '../../Button'
 
 export default {
  name:'ServicesItem',
  components: {
-  ButtonReadMore
+  Button
  },
  props: {
   CatalogItem_data: {

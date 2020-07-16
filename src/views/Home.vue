@@ -5,6 +5,7 @@
     <ContainerAbout/>
     <ContainerServices/>
     <ContainerLatestWorks/>
+    <ContainerPricingPlan/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import ContainerMain from '../container/ContainerMain'
 import ContainerAbout from '../container/ContainerAbout'
 import ContainerServices from '../container/ContainerServices'
 import ContainerLatestWorks from '../container/ContainerLatestWorks'
+import ContainerPricingPlan from '../container/ContainerPricingPlan'
 
 export default {
  name: 'Home',
@@ -23,6 +25,7 @@ export default {
     ContainerAbout,
     ContainerServices,
     ContainerLatestWorks,
+    ContainerPricingPlan,
  }
 }
 </script>

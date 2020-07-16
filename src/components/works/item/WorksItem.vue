@@ -25,7 +25,5 @@ export default {
  width: 370px;
  height: 370px;
 }
-.item-about__images{
 
-}
 </style>
