@@ -38,7 +38,8 @@ export default {};
 
 <style>
 .facebook {
-  width: 15px;
+  width: 27px;
   height: 28px;
+  fill:#00897b;
 }
 </style>

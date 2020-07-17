@@ -16,5 +16,6 @@ export default {};
 .dribbble {
   width: 26px;
   height: 27px;
+  fill:#00897b;
 }
 </style>

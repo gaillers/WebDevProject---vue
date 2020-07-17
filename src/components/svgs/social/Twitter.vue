@@ -46,5 +46,6 @@ export default {};
 .twitter {
   width: 27px;
   height: 22px;
+  fill:#00897b;
 }
 </style>

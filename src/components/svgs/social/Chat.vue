@@ -49,5 +49,6 @@ export default {};
 .chat {
   width: 30px;
   height: 25px;
+  fill:#00897b;
 }
 </style>
