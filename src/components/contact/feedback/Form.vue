@@ -147,5 +147,11 @@ export default {
   text-transform: uppercase;
   position: absolute;
   left: 65.9%;
+  transition: all 0.8s ease;
+  &:hover {
+     background: #00897b;
+     color: #fff;
+     
+  }
 }
 </style>

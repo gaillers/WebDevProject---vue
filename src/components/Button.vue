@@ -57,7 +57,7 @@ export default {
         'btn-main__btnNav': this.btnNav,
         'btn-main__view': this.view,
         'btn-main__order': this.order,
-        'btn-main__moreView':this.moreView,
+        'btn-main__moreView': this.moreView,
       };
     },
   },
@@ -74,6 +74,7 @@ export default {
   border: none;
   cursor: pointer;
   margin-right: 21.5%;
+  transition: all 0.8s ease;
   & span {
     width: 128px;
     height: 14px;
@@ -82,7 +83,8 @@ export default {
     font-weight: bold;
     letter-spacing: 1px;
     color: #ffffff;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    transition: all 0.8s ease;
   }
   &__border {
     width: 220px;
@@ -90,6 +92,7 @@ export default {
     background: none;
     border: solid 3px #f8f8f8;
     margin: 0 25px 0 22.4%;
+    transition: all 0.8s ease;
     & span {
       width: 128px;
       height: 14px;
@@ -99,6 +102,7 @@ export default {
       letter-spacing: 1px;
       color: #ffffff;
       text-transform: uppercase;
+      transition: all 0.8s ease;
     }
   }
   &__white {
@@ -127,6 +131,7 @@ export default {
     border: solid 2px #212121;
     background: none;
     margin: 0 29.5% 0 30%;
+    transition: all 0.8s ease;
     cursor: pointer;
     & span {
       width: 121px;
@@ -137,6 +142,13 @@ export default {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #212121;
+      transition: all 0.8s ease;
+    }
+    &:hover {
+      background: #212121;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__all {
@@ -166,6 +178,7 @@ export default {
     background: none;
     cursor: pointer;
     margin-right: 20px;
+    transition: all 0.8s ease;
     &:last-child {
       margin-right: 0px;
     }
@@ -179,6 +192,7 @@ export default {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #212121;
+      transition: all 0.8s ease;
     }
   }
   &__view {
@@ -188,6 +202,7 @@ export default {
     border: none;
     cursor: pointer;
     margin-right: 0px;
+    transition: all 0.8s ease;
     & span {
       width: 128px;
       height: 14px;
@@ -197,6 +212,12 @@ export default {
       letter-spacing: 1px;
       color: #ffffff;
       text-transform: uppercase;
+    }
+    &:hover {
+      background-color: #212121;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__order {
@@ -216,6 +237,13 @@ export default {
       letter-spacing: 1px;
       text-align: center;
       color: #212121;
+      transition: 0.8s all ease;
+    }
+    &:hover {
+      background: #212121;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__moreView {
@@ -226,6 +254,7 @@ export default {
     cursor: pointer;
     margin-right: 0px;
     margin-top: 125px;
+    transition: all 0.8s ease;
     & span {
       width: 128px;
       height: 14px;
@@ -235,6 +264,12 @@ export default {
       letter-spacing: 1px;
       color: #ffffff;
       text-transform: uppercase;
+    }
+    &:hover {
+      background-color: #212121;
+      & span {
+        color: #fff;
+      }
     }
   }
 }
