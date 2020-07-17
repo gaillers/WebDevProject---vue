@@ -41,7 +41,7 @@ export default {};
 
 <style lang="scss">
 .document {
-  width: 15px;
+  width: 18px;
   height: 18px;
 }
 </style>

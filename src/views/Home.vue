@@ -8,6 +8,8 @@
     <ContainerPricingPlan/>
     <ContainerTeam/>
     <ContainerBlog/>
+    <ContainerContactUs/>
+    <Footer/>
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import ContainerLatestWorks from '../container/ContainerLatestWorks'
 import ContainerPricingPlan from '../container/ContainerPricingPlan'
 import ContainerTeam from '../container/ContainerTeam'
 import ContainerBlog from '../container/ContainerBlog'
+import ContainerContactUs from '../container/ContainerContactUs'
+import Footer from '../components/footer/Footer'
 
 export default {
  name: 'Home',
@@ -32,6 +36,8 @@ export default {
     ContainerPricingPlan,
     ContainerTeam,
     ContainerBlog,
+    ContainerContactUs,
+    Footer,
  }
 }
 </script>

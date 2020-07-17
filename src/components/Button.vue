@@ -42,6 +42,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    moreView: {
+      type: Boolean,
+      default: false,
+    },
   },
   computed: {
     className() {
@@ -53,6 +57,7 @@ export default {
         'btn-main__btnNav': this.btnNav,
         'btn-main__view': this.view,
         'btn-main__order': this.order,
+        'btn-main__moreView':this.moreView,
       };
     },
   },
@@ -211,6 +216,25 @@ export default {
       letter-spacing: 1px;
       text-align: center;
       color: #212121;
+    }
+  }
+  &__moreView {
+    width: 220px;
+    height: 70px;
+    background-color: #00897b;
+    border: none;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 125px;
+    & span {
+      width: 128px;
+      height: 14px;
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-transform: uppercase;
     }
   }
 }

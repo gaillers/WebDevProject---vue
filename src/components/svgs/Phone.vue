@@ -16,7 +16,8 @@ export default {};
 
 <style lang="scss">
 .phone {
-  width: 62px;
+  width: 55px;
   height: 62px;
+  fill: #fff;
 }
 </style>

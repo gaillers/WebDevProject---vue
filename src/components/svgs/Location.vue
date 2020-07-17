@@ -19,7 +19,8 @@ export default {};
 
 <style lang="scss">
 .location {
-  width: 44px;
+  width: 55px;
   height: 62px;
+  fill: #fff;
 }
 </style>

@@ -14,7 +14,8 @@ export default {};
 
 <style lang="scss">
 .emaill {
-  width: 62px;
+  width: 55px;
   height: 44px;
+  fill: #fff;
 }
 </style>
