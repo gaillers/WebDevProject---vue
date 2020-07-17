@@ -28,7 +28,7 @@ export default {
   justify-content: space-between;
 }
 .nav__link {
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 20px;
   font-weight: 600;
   margin: 0;

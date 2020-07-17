@@ -36,7 +36,7 @@ export default {
 .item-about__title{
   width: 260px;
   height: 19px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 20px;
   font-weight: 600;
   line-height: 1.1;
@@ -48,7 +48,7 @@ export default {
 .item-about__text {
   width: 254px;
   height: 60px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.47;
   letter-spacing: 0.75px;

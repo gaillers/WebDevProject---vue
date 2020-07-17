@@ -8,8 +8,8 @@ export default {};
 
 <style lang="scss">
 .main-container__title {
-  width: 812px;
-  font-family: 'OpenSans';
+  width: 841px;
+  font-family: 'Open Sans';
   font-size: 60px;
   letter-spacing: 3px;
   text-align: center;

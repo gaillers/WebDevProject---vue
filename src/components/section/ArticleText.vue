@@ -12,9 +12,9 @@ export default {
 
 <style lang="scss">
 .text {
-  width: 620px;
+  width: 621px;
   height: 38px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.47;
   letter-spacing: 0.75px;

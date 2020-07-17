@@ -126,9 +126,9 @@ export default {
     & span {
       width: 121px;
       height: 14px;
-      font-family: 'OpenSans';
+      font-family: 'Open Sans';
       font-size: 15px;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #212121;
@@ -145,7 +145,7 @@ export default {
     & span {
       width: 37px;
       height: 14px;
-      font-family: 'OpenSans';
+      font-family: 'Open Sans';
       font-size: 20px;
       font-weight: 600;
       line-height: 1.1;
@@ -167,7 +167,7 @@ export default {
     & span {
       width: 130px;
       height: 14px;
-      font-family: 'OpenSans';
+      font-family: 'Open Sans';
       font-size: 20px;
       font-weight: 600;
       line-height: 1.1;
@@ -205,7 +205,7 @@ export default {
     & span {
       width: 114px;
       height: 15px;
-      font-family: 'OpenSans';
+      font-family: 'Open Sans';
       font-size: 20px;
       font-weight: 600;
       letter-spacing: 1px;

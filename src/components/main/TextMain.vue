@@ -11,7 +11,7 @@ export default {};
 <style lang="scss">
 .main-container__text {
   height: 22px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 22px;
   line-height: 1;
   letter-spacing: 1.1px;

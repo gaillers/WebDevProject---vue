@@ -10,9 +10,9 @@ export default {};
 
 <style lang="scss">
 .logo {
-  width: 124px;
+  width: 125px;
   height: 24px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 25px;
   font-weight: bold;
   line-height: 0.88;

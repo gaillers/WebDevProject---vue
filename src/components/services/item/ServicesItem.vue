@@ -41,7 +41,7 @@ export default {
    margin-bottom: 40px;
  }
  .item-services__title{
-   font-family: 'OpenSans';
+   font-family: 'Open Sans';
    font-size: 20px;
    font-weight: 600;
    line-height: 1.1;
@@ -53,7 +53,7 @@ export default {
  }
  .item-services__text{
   width: 271px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.67;
   letter-spacing: 0.75px;

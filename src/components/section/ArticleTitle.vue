@@ -12,9 +12,8 @@ export default {
 
 <style lang="scss">
 .title {
-  width: 300px;
   height: 23px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 30px;
   font-weight: bold;
   line-height: 0.73;

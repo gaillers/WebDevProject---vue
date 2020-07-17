@@ -26,7 +26,7 @@ export default {
              days: '14 free trial',
              project: '1 free project',
              back: 'PHP 5 enabled',
-             supports: '24/7 supports',
+             suports: '24/7 Suports',
              article: 'P1', 
           },
           {
@@ -36,7 +36,7 @@ export default {
              days: '30 days',
              project: '5 project',
              back: 'PHP 5 enabled',
-             supports: '24/7 supports',
+             suports: '24/7 Suports',
              article: 'P2', 
           },
           {
@@ -46,7 +46,7 @@ export default {
              days: '30 days',
              project: '10 project',
              back: 'PHP 5 enabled',
-             supports: '24/7 supports',
+             suports: '24/7 Suports',
              article: 'P3', 
           },   
        ]

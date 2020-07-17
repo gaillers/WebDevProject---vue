@@ -12,7 +12,7 @@
       <p class="days">{{ PricingOrder_data.days }}</p>
       <p class="project">{{ PricingOrder_data.project }}</p>
       <p class="back">{{ PricingOrder_data.back }}</p>
-      <p class="supports">{{ PricingOrder_data.supports }}</p>
+      <p class="suports">{{ PricingOrder_data.suports }}</p>
       <Button :order="true" btnText="order now" />
     </div>
   </div>
@@ -71,7 +71,7 @@ export default {
   justify-content: center;
   align-items: center;
   & span.curr {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     font-size: 25px;
     color: #ffffff;
     margin-top: -10px;
@@ -80,7 +80,7 @@ export default {
   & p.pr {
     width: 56px;
     height: 53px;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     font-size: 50px;
     font-weight: normal;
     font-stretch: normal;
@@ -91,7 +91,7 @@ export default {
   }
   & span.month {
     height: 17px;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     font-size: 17px;
     line-height: 1.29;
     letter-spacing: 0.85px;
@@ -104,7 +104,7 @@ export default {
 .order__info {
   padding-top: 35px;
   & p {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     font-size: 17px;
     line-height: 1.29;
     letter-spacing: 0.85px;

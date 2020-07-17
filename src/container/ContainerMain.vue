@@ -10,6 +10,7 @@
       <Button 
       btnText="hire is now" 
       />
+      <ArrowDown/>
     </div>
   </section>
 </template>
@@ -18,6 +19,7 @@
 import TitleMain from '../components/main/TitleMain';
 import TextMain from '../components/main/TextMain';
 import Button from '../components/Button';
+import ArrowDown from '../components/svgs/ArrowDown'
 
 export default {
   name: 'ContainerMain',
@@ -25,6 +27,7 @@ export default {
     TitleMain,
     TextMain,
     Button,
+    ArrowDown,
   },
 };
 </script>
@@ -40,7 +43,7 @@ export default {
   background-position: center;
 }
 .main__container {
-  width: 830px;
+  width: 837px;
   height: 430px;
 }
 </style>
