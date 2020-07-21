@@ -34,6 +34,7 @@ export default {
 }
 .wrapper {
   display: flex;
+  justify-content: space-between;
   width: 1400px;
   height: 120px;
   align-items: center;

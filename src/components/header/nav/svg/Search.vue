@@ -1,6 +1,15 @@
 <template>
   <div class="search">
+    <input
+      class="search__inp"
+      type="text"
+      placeholder="Search"
+      :class="{ open: searchOn }"
+    />
     <svg
+      @click="searchOn = !searchOn, searchAct = !searchAct"
+      :class="{ 'active': searchAct}"
+      class="search__svg"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 56.966 56.966"
@@ -31,12 +40,52 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: 'Search',
+
+  data() {
+    return {
+      searchOn: false,
+      searchAct: false,
+    };
+  },
+  method: {
+
+  },
+  computed: {
+
+  },
+};
+
 </script>
 
 <style lang="scss">
 .search {
+  max-width: 202px;
+  position: relative;
+  display: flex;
+}
+.search__inp {
+  display: none;
+  margin-right: 10px;
+  &.open {
+    display: block;
+    
+  }
+}
+.search__svg {
   width: 19px;
   height: 19px;
+  fill: #000;
+  cursor: pointer;
+  margin-top: 1px;
+  transition: all 0.6s ease 0s;
+  &:hover{
+    fill:#00897b;
+  }
+  &.active{
+    fill:#00897b;
+  }
+  
 }
 </style>
