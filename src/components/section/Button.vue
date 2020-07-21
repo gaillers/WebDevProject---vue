@@ -83,8 +83,15 @@ export default {
     font-weight: bold;
     letter-spacing: 1px;
     color: #ffffff;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     transition: all 0.6s ease 0s;
+  }
+  &:hover {
+    background-color: #fff;
+    border: #fff;
+    & span {
+      color: #000;
+    }
   }
   &__border {
     width: 220px;
@@ -103,6 +110,13 @@ export default {
       color: #ffffff;
       text-transform: uppercase;
       transition: all 0.6s ease 0s;
+    }
+    &:hover {
+      background: #000;
+      border: solid 3px #000;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__white {
