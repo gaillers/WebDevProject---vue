@@ -11,7 +11,7 @@
 
 <script>
 import BlogItem from '../blog/BlogItem'
-import Button from '../Button'
+import Button from '../section/Button'
 
 export default {
  name: 'BlogPost',

@@ -20,7 +20,7 @@
 <script>
 import ArticleTitle from '../components/section/ArticleTitle';
 import ArticleText from '../components/section/ArticleText';
-import Button from '../components/Button'
+import Button from '../components/section/Button'
 import WorksCatalog from '../components/works/WorksCatalog'
 
 

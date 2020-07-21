@@ -74,7 +74,7 @@ export default {
   border: none;
   cursor: pointer;
   margin-right: 21.5%;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease 0s;
   & span {
     width: 128px;
     height: 14px;
@@ -84,7 +84,7 @@ export default {
     letter-spacing: 1px;
     color: #ffffff;
     text-transform: uppercase; 
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
   }
   &__border {
     width: 220px;
@@ -92,7 +92,7 @@ export default {
     background: none;
     border: solid 3px #f8f8f8;
     margin: 0 25px 0 22.4%;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
     & span {
       width: 128px;
       height: 14px;
@@ -102,7 +102,7 @@ export default {
       letter-spacing: 1px;
       color: #ffffff;
       text-transform: uppercase;
-      transition: all 0.8s ease;
+      transition: all 0.6s ease 0s;
     }
   }
   &__white {
@@ -131,7 +131,7 @@ export default {
     border: solid 2px #212121;
     background: none;
     margin: 0 29.5% 0 30%;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
     cursor: pointer;
     & span {
       width: 121px;
@@ -142,7 +142,7 @@ export default {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #212121;
-      transition: all 0.8s ease;
+      transition: all 0.6s ease 0s;
     }
     &:hover {
       background: #212121;
@@ -178,7 +178,7 @@ export default {
     background: none;
     cursor: pointer;
     margin-right: 20px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
     &:last-child {
       margin-right: 0px;
     }
@@ -192,7 +192,7 @@ export default {
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #212121;
-      transition: all 0.8s ease;
+      transition: all 0.6s ease 0s;
     }
   }
   &__view {
@@ -202,7 +202,7 @@ export default {
     border: none;
     cursor: pointer;
     margin-right: 0px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
     & span {
       width: 128px;
       height: 14px;
@@ -227,7 +227,7 @@ export default {
     background: none;
     margin-right: 0px;
     margin-top: 15px;
-    transition: 0.8s all ease;
+    transition: all 0.6s ease 0s;
     & span {
       width: 114px;
       height: 15px;
@@ -237,7 +237,7 @@ export default {
       letter-spacing: 1px;
       text-align: center;
       color: #212121;
-      transition: 0.8s all ease;
+      transition: all 0.6s ease 0s;
     }
     &:hover {
       background: #212121;
@@ -254,7 +254,7 @@ export default {
     cursor: pointer;
     margin-right: 0px;
     margin-top: 125px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
     & span {
       width: 128px;
       height: 14px;

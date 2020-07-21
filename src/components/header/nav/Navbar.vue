@@ -3,9 +3,9 @@
     <ul class="nav__item">
       <li
         class="nav__link"
-        @click="darkMode = !darkMode"
-        :class="{ '': darkMode }"
-        v-for="nav in navs"
+        @click="setActive(i)"
+        :class="['nav__link',{ active: i == active} ]"
+        v-for="(nav, i) in navs"
         :key="nav.id"
       >
         <a href="#">{{ nav.name }}</a>
@@ -23,28 +23,39 @@ export default {
       navs: [
         {
           name: 'Home',
+          id: 'N1',
         },
         {
           name: 'About us',
+          id: 'N2',
         },
         {
           name: 'Servicing',
+          id: 'N3',
         },
         {
           name: 'Portfolio',
+          id: 'N4',
         },
         {
           name: 'Blog',
+          id: 'N5',
         },
         {
           name: 'Contact Us',
+          id: 'N6',
         },
       ],
-      darkMode: false,
+      active: localStorage.getItem('active') || null,
     };
   },
 
-  methods: {},
+  methods: {
+    setActive(nav) {
+      this.active = nav;
+      localStorage.setItem('active', nav);
+    },
+  },
 };
 </script>
 
@@ -89,7 +100,7 @@ export default {
       width: 100%;
     }
   }
-  &:active {
+  &.active {
     &::after {
       position: relative;
       bottom: 0;

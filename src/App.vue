@@ -33,6 +33,9 @@ li {
   padding: 0;
   list-style-type: none;
 }
+body {
+  overflow: overlay;
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 </style>
 

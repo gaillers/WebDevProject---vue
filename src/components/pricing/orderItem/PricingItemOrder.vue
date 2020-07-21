@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import Button from '../../Button';
+import Button from '../../section/Button';
 
 export default {
   name: 'PricingItemOrder',
@@ -44,7 +44,7 @@ export default {
   width: 370px;
   height: 667px;
   background-color: #ffffff;
-  transition: 0.8s all ease;
+  transition: all 0.6s ease 0s;
   &:hover {
     box-shadow: 0px 3px 25px 0 #00000059;
     transform: scale(1.04);

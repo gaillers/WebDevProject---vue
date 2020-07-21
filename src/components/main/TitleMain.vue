@@ -16,5 +16,6 @@ export default {};
   color: #ffffff;
   margin: 0 auto;
   margin-bottom: 25px;
+  user-select: none;  
 }
 </style>

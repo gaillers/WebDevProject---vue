@@ -102,10 +102,11 @@ export default {
   height: 50px;
   border-radius: 10px;
   background-color: #f0f1f1;
-  transition: all 0.8s ease;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
   .facebook {
     padding: 11px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
   }
   &:hover{
     background-color: #3949ab;
@@ -119,10 +120,11 @@ export default {
   height: 50px;
   border-radius: 10px;
   background-color: #f0f1f1;
-  transition: all 0.8s ease;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
   .twitter {
     padding: 12px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
   }
   &:hover{
    background-color: #08a0e9;
@@ -136,10 +138,11 @@ export default {
   height: 50px;
   border-radius: 10px;
   background-color: #f0f1f1;
-  transition: all 0.8s ease;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
   .chat {
     padding: 11px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease 0s;
   }
   &:hover{
     background-color: #ffae00;
@@ -153,10 +156,11 @@ export default {
   height: 50px;
   border-radius: 10px;
   background-color: #f0f1f1;
-  transition: all 0.8s ease;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
   .dribbble {
     padding: 12px;
-     transition: all 0.8s ease;
+     transition: all 0.6s ease 0s;
   }
   &:hover{
     background-color: #ea4c89;

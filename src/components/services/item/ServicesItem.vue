@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Button from '../../Button';
+import Button from '../../section/Button';
 
 export default {
   name: 'ServicesItem',
@@ -35,7 +35,7 @@ export default {
   width: 370px;
   height: 438px;
   background-color: #ffffff;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease 0s;
   &:hover {
     transform: scale(1.04);
     box-shadow: 0px 3px 25px 0 #00000059;
@@ -58,7 +58,7 @@ export default {
   color: #212121;
   margin: 0 auto;
   margin-bottom: 26px;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease 0s;
 }
 .item-services__text {
   width: 271px;
@@ -70,6 +70,6 @@ export default {
   color: #212121;
   margin: 0 auto;
   margin-bottom: 45px;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease 0s;
 }
 </style>

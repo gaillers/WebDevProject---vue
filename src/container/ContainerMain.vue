@@ -18,7 +18,7 @@
 <script>
 import TitleMain from '../components/main/TitleMain';
 import TextMain from '../components/main/TextMain';
-import Button from '../components/Button';
+import Button from '../components/section/Button';
 import ArrowDown from '../components/svgs/ArrowDown'
 
 export default {

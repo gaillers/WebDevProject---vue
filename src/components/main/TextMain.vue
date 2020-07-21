@@ -18,5 +18,6 @@ export default {};
   text-align: center;
   color: #ffffff;
   margin-bottom: 110px;
+  user-select: none;  
 }
 </style>

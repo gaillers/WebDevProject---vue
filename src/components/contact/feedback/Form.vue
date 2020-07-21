@@ -147,7 +147,8 @@ export default {
   text-transform: uppercase;
   position: absolute;
   left: 65.9%;
-  transition: all 0.8s ease;
+  transition: all 0.6s ease 0s;
+  cursor: pointer;
   &:hover {
      background: #00897b;
      color: #fff;
