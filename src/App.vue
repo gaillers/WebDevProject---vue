@@ -1,19 +1,18 @@
 <template>
   <div id="app">
-   <Home/>
+    <Home />
   </div>
 </template>
-
 <script>
-import Home from '@/views/Home'
 
+import Home from '@/views/Home';
 
 export default {
   name: 'App',
   components: {
-   Home,
-  }
-}
+    Home,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -38,5 +37,3 @@ body {
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 </style>
-
-

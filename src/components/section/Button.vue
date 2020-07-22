@@ -14,6 +14,10 @@ export default {
       type: String,
       default: 'None Text',
     },
+    default: {
+      type: Boolean,
+      default: false,
+    },
     border: {
       type: Boolean,
       default: false,
@@ -50,6 +54,7 @@ export default {
   computed: {
     className() {
       return {
+        'btn-main__default': this.default,
         'btn-main__border': this.border,
         'btn-main__white': this.white,
         'btn-main__readMore': this.readMore,
@@ -68,29 +73,31 @@ export default {
 <style lang="scss">
 .btn-main {
   // Main Button
-  width: 220px;
-  height: 70px;
-  background-color: #00897b;
-  border: none;
-  cursor: pointer;
-  margin-right: 21.5%;
-  transition: all 0.6s ease 0s;
-  & span {
-    width: 128px;
-    height: 14px;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #ffffff;
-    text-transform: uppercase;
+  &__default {
+    width: 220px;
+    height: 70px;
+    background-color: #00897b;
+    border: none;
+    cursor: pointer;
+    margin-right: 21.5%;
     transition: all 0.6s ease 0s;
-  }
-  &:hover {
-    background-color: #fff;
-    border: #fff;
     & span {
-      color: #000;
+      width: 128px;
+      height: 14px;
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-transform: uppercase;
+      transition: all 0.6s ease 0s;
+    }
+    &:hover {
+      background-color: #fff;
+      border: #fff;
+      & span {
+        color: #000;
+      }
     }
   }
   &__border {
@@ -100,6 +107,7 @@ export default {
     border: solid 3px #f8f8f8;
     margin: 0 25px 0 22.4%;
     transition: all 0.6s ease 0s;
+    cursor: pointer;
     & span {
       width: 128px;
       height: 14px;
@@ -169,10 +177,11 @@ export default {
     // Works Button Nav
     width: 100px;
     height: 55px;
-    background-color: #00897b;
-    border: none;
+    border: solid 2px #00897b;
+    background: none;
     cursor: pointer;
     margin-right: 20px;
+    transition: all 0.6s ease 0s;
     & span {
       width: 37px;
       height: 14px;
@@ -182,7 +191,22 @@ export default {
       line-height: 1.1;
       letter-spacing: 1px;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #212121;
+      transition: all 0.6s ease 0s;
+    }
+    &:hover {
+      border: solid 2px #00897b;
+      background: #00897b;
+      & span {
+        color: #fff;
+      }
+    }
+    &.active {
+      border: solid 2px #00897b;
+      background: #00897b;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__btnNav {
@@ -207,6 +231,20 @@ export default {
       text-transform: uppercase;
       color: #212121;
       transition: all 0.6s ease 0s;
+    }
+    &:hover {
+      border: solid 2px #00897b;
+      background: #00897b;
+      & span {
+        color: #fff;
+      }
+    }
+    &.active {
+      border: solid 2px #00897b;
+      background: #00897b;
+      & span {
+        color: #fff;
+      }
     }
   }
   &__view {
@@ -241,6 +279,7 @@ export default {
     background: none;
     margin-right: 0px;
     margin-top: 15px;
+    cursor: pointer;
     transition: all 0.6s ease 0s;
     & span {
       width: 114px;
@@ -251,6 +290,8 @@ export default {
       letter-spacing: 1px;
       text-align: center;
       color: #212121;
+      text-transform: uppercase;
+      cursor: pointer;
       transition: all 0.6s ease 0s;
     }
     &:hover {

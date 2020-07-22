@@ -6,13 +6,13 @@
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
       />
       <div class="btn-nav__btn-wrapper">
-        <Button :all="true" btnText="all"/>
-        <Button :btnNav="true" btnText="web design"/>
-        <Button :btnNav="true" btnText="ui/ux design"/>
-        <Button :btnNav="true" btnText="mockups"/>
+        <Button :class="'active'"  :all="true" btnText="all" />
+        <Button :btnNav="true" btnText="web design" />
+        <Button :btnNav="true" btnText="ui/ux design" />
+        <Button :btnNav="true" btnText="mockups" />
       </div>
-      <WorksCatalog/>
-      <Button :view="true" btnText="view all"/>
+      <WorksCatalog />
+      <Button :view="true" btnText="view all" />
     </div>
   </section>
 </template>
@@ -20,9 +20,8 @@
 <script>
 import ArticleTitle from '../components/section/ArticleTitle';
 import ArticleText from '../components/section/ArticleText';
-import Button from '../components/section/Button'
-import WorksCatalog from '../components/works/WorksCatalog'
-
+import Button from '../components/section/Button';
+import WorksCatalog from '../components/works/WorksCatalog';
 
 export default {
   name: 'ContainerLatestWorks',
@@ -31,6 +30,16 @@ export default {
     ArticleText,
     Button,
     WorksCatalog,
+  },
+  data: function() {
+    return {
+      
+      
+      
+    };
+  },
+
+  methods: {
     
   },
 };

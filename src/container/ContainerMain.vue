@@ -3,14 +3,9 @@
     <div class="main__container">
       <TitleMain />
       <TextMain />
-      <Button 
-      :border="true" 
-      btnText="our sirvices" 
-      />
-      <Button 
-      btnText="hire is now" 
-      />
-      <ArrowDown/>
+      <Button :border="true" btnText="our sirvices" />
+      <Button :default="true" btnText="hire is now" />
+      <ArrowDown />
     </div>
   </section>
 </template>
@@ -19,7 +14,7 @@
 import TitleMain from '../components/main/TitleMain';
 import TextMain from '../components/main/TextMain';
 import Button from '../components/section/Button';
-import ArrowDown from '../components/svgs/ArrowDown'
+import ArrowDown from '../components/svgs/ArrowDown';
 
 export default {
   name: 'ContainerMain',

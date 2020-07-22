@@ -4,7 +4,7 @@
       <li
         class="nav__link"
         @click="setActive(i)"
-        :class="['nav__link',{ active: i == active} ]"
+        :class="['nav__link', { active: i == active }]"
         v-for="(nav, i) in navs"
         :key="nav.id"
       >
