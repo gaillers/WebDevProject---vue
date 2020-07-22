@@ -43,7 +43,7 @@ export default {
   props: {
     sliderTeamItem_data: {
       type: Object,
-      default: () => [],
+      default: () => {},
     },
   },
 };
