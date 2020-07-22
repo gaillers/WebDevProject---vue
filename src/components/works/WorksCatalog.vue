@@ -3,7 +3,7 @@
     <WorksItem
       v-for="WorksItem in WorksItems"
       :key="WorksItem.article"
-      :WorksItem_data="WorksItem"
+      :WorksItem_data="WorksItem" 
     />
   </div>
 </template>
@@ -20,26 +20,38 @@ export default {
       WorksItems: [
         {
           images: 'clock_lt_works.png',
+          name: 'Hand Watch',
+          tech: 'ui/ux design',
           article: 'I1',
         },
         {
           images: 'eat_lt_works.png',
+          name: 'HELIO III',
+          tech: 'Web Design',
           article: 'I2',
         },
         {
           images: 'shot_lt_works.png',
+          name: 'Frank +Oak',
+          tech: 'Web Design',
           article: 'I3',
         },
         {
           images: 'mischief_lt_works.png',
+          name: 'Hand Watch',
+          tech: 'Mockup',
           article: 'I4',
         },
         {
           images: 'wine_lt_works.png',
+          name: 'Wine',
+          tech: 'Mockup',
           article: 'I5',
         },
         {
           images: 'abag_lt_works.png',
+          name: 'The Kitchens',
+          tech: 'Mockup',
           article: 'I6',
         },
       ],
@@ -50,12 +62,12 @@ export default {
 
 <style lang="scss" scoped>
 .works-catalog__wrapper-item {
- display: grid;
- grid-template-columns: 1.05fr 1.05fr 0.05fr;
- grid-column-gap: 30px;
- grid-row-gap: 30px;
- width: 1170px;
- height: 770px;
- margin-bottom: 125px;
+  display: grid;
+  grid-template-columns: 1.05fr 1.05fr 0.05fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 1170px;
+  height: 770px;
+  margin-bottom: 125px;
 }
 </style>
