@@ -56,7 +56,7 @@ export default {
   width: 1030px;
   height: 608px;
   margin-top: 9%;
-  margin-left: 23.3%;
+  margin-left: 23.1%;
   border-radius: 1%;
   & label {
     font-family: 'Open Sans';

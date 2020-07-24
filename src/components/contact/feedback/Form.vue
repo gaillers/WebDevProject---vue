@@ -35,13 +35,18 @@
       v-model="massage"
     ></textarea>
     <input class="send" type="submit" value="Send" />
+    <SendDate/>
   </form>
 </template>
 
 <script>
+import SendDate from '../feedback/SendDate';
+
 export default {
   name: 'Form',
-  components: {},
+  components: {
+    SendDate,
+  },
   data() {
     return {
       name: '',
