@@ -64,13 +64,13 @@ export default {
   max-width: 202px;
   position: relative;
   display: flex;
+  
 }
 .search__inp {
   display: none;
   margin-right: 10px;
   &.open {
     display: block;
-    
   }
 }
 .search__svg {

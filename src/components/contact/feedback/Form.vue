@@ -23,16 +23,16 @@
     />
 
     <textarea
-      class="form-control__message"
+      class="form-control__massage"
       placeholder="Write Massage"
       rows="4"
       cols="50"
-      type="message"
-      id="message"
-      name="message"
+      type="massage"
+      id="massage"
+      name="massage"
       tabindex="3"
       required
-      v-model="message"
+      v-model="massage"
     ></textarea>
     <input class="send" type="submit" value="Send" />
   </form>
@@ -42,13 +42,13 @@
 export default {
   name: 'Form',
   components: {},
-  data () {
-  return {
-    name:'',
-    email: '',
-    message: ''
-  }
-},
+  data() {
+    return {
+      name: '',
+      email: '',
+      massage: '',
+    };
+  },
   props: {},
   methods: {},
 };
@@ -72,7 +72,7 @@ export default {
   color: #212121cc;
 }
 .form-control {
-  &__message {
+  &__massage {
     max-width: 969px;
     width: 100%;
     height: 323px;
@@ -146,13 +146,12 @@ export default {
   color: #212121;
   text-transform: uppercase;
   position: absolute;
-  left: 65.9%;
+  left: 65.3%;
   transition: all 0.6s ease 0s;
   cursor: pointer;
   &:hover {
-     background: #00897b;
-     color: #fff;
-     
+    background: #00897b;
+    color: #fff;
   }
 }
 </style>

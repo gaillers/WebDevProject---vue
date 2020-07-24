@@ -8,6 +8,7 @@
       />
       <ContactInfo/>
        <Form/>
+       <SendDate/>
     </div>
   </section>
 </template>
@@ -17,6 +18,7 @@ import ArticleTitle from '../components/section/ArticleTitle';
 import ArticleText from '../components/section/ArticleText';
 import ContactInfo from '../components/contact/ContactInfo'
 import Form from '../components/contact/feedback/Form'
+import SendDate from '../components/contact/feedback/SendDate'
 
 export default {
   name: 'ContainerContactUs',
@@ -25,12 +27,14 @@ export default {
     ArticleText,
     ContactInfo,
     Form,
+    SendDate,
   },
 };
 </script>
 
 <style lang="scss">
 .contact {
+  position: relative;
   display: flex;
   justify-content: center;
   width: 1920px;

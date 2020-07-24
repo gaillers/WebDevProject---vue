@@ -1,23 +1,26 @@
 <template>
-  <div class="block-post__item">
-    <div class="post-item__image">
-      <img
-        :src="require('../../assets/images/' + BlogPostItem_data.images)"
-        alt="png"
-      />
-    </div>
-    <div class="post-item__inf">
-      <h3 class="post-item__title">{{ BlogPostItem_data.title }}</h3>
-      <div class="post-item__blk">
-        <Calendar />
-        <h4 class="data__name">{{ BlogPostItem_data.data }}</h4>
-        <Document />
-        <h4 class="dev__name">{{ BlogPostItem_data.dev }}</h4>
+  <div class="block-post__item-wrapper">
+    <div class="block-post__item">
+      <div class="post-item__image">
+        <img
+          :src="require('../../assets/images/' + BlogPostItem_data.images)"
+          alt="png"
+        />
       </div>
-      <p class="post-item__text">
-        {{ BlogPostItem_data.text }}
-      </p>
+      <div class="post-item__inf">
+        <h3 class="post-item__title">{{ BlogPostItem_data.title }}</h3>
+        <div class="post-item__blk">
+          <Calendar />
+          <h4 class="data__name">{{ BlogPostItem_data.data }}</h4>
+          <Document />
+          <h4 class="dev__name">{{ BlogPostItem_data.dev }}</h4>
+        </div>
+        <p class="post-item__text">
+          {{ BlogPostItem_data.text }}
+        </p>
+      </div>
     </div>
+    
   </div>
 </template>
 
