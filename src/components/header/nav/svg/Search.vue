@@ -7,8 +7,8 @@
       :class="{ open: searchOn }"
     />
     <svg
-      @click="searchOn = !searchOn, searchAct = !searchAct"
-      :class="{ 'active': searchAct}"
+      @click="(searchOn = !searchOn), (searchAct = !searchAct)"
+      :class="{ active: searchAct }"
       class="search__svg"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -49,14 +49,9 @@ export default {
       searchAct: false,
     };
   },
-  method: {
-
-  },
-  computed: {
-
-  },
+  method: {},
+  computed: {},
 };
-
 </script>
 
 <style lang="scss">
@@ -64,13 +59,17 @@ export default {
   max-width: 202px;
   position: relative;
   display: flex;
-  
 }
 .search__inp {
   display: none;
   margin-right: 10px;
+  border: none;
   &.open {
     display: block;
+    border: none;
+    border-bottom: 1px solid #212121;
+    outline: none;
+    font-family: 'Open Sans';
   }
 }
 .search__svg {
@@ -80,12 +79,11 @@ export default {
   cursor: pointer;
   margin-top: 1px;
   transition: all 0.6s ease 0s;
-  &:hover{
-    fill:#00897b;
+  &:hover {
+    fill: #00897b;
   }
-  &.active{
-    fill:#00897b;
+  &.active {
+    fill: #00897b;
   }
-  
 }
 </style>
