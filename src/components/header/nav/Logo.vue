@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    Your Logo
+    <a href="/">Your Logo</a>
   </div>
 </template>
 
@@ -17,5 +17,9 @@ export default {};
   font-weight: bold;
   line-height: 0.88;
   color: #212121;
+  & a {
+    text-decoration: none;
+    color: #212121;
+  }
 }
 </style>
