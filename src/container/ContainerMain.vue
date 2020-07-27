@@ -36,6 +36,7 @@ export default {
   height: 835px;
   background: url('../assets/images/header_image_rectangle.png') no-repeat;
   background-position: center;
+  margin-bottom: 125px;
 }
 .main__container {
   width: 837px;

@@ -31,12 +31,9 @@ export default {
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 680px;
 }
 .about__container {
   width: 1115px;
-  height: 430px;
-  padding-top: 125px;
   margin-bottom: 125px;
 }
 </style>

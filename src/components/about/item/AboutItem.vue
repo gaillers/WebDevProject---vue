@@ -26,7 +26,6 @@ export default {
 <style lang="scss" scoped>
 .about-wrapper__item{
    width: 260px;
-   height: 210px;
 }
 .item-about__images{
    display: flex;
@@ -35,7 +34,6 @@ export default {
 }
 .item-about__title{
   width: 260px;
-  height: 19px;
   font-family: 'Open Sans';
   font-size: 20px;
   font-weight: 600;
@@ -47,7 +45,6 @@ export default {
 }
 .item-about__text {
   width: 254px;
-  height: 60px;
   font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.47;

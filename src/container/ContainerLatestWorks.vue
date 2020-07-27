@@ -33,8 +33,7 @@ export default {
   },
   data: function() {
     return {
-      
-      
+     
       
     };
   },
@@ -50,18 +49,16 @@ export default {
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 1616px;
 }
 .works__container {
   width: 1170px;
-  height: 1367px;
   padding-top: 125px;
+  margin-bottom: 125px;
   text-align: center;
 }
 .btn-nav__btn-wrapper {
   width: 700px;
   margin: 0 auto;
-  padding-top: 125px;
   margin-bottom: 125px;
 }
 </style>

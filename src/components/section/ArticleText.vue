@@ -26,7 +26,6 @@ export default {
 <style lang="scss">
 .text {
   width: 621px;
-  height: 38px;
   font-family: 'Open Sans';
   font-size: 15px;
   line-height: 1.47;
@@ -34,9 +33,9 @@ export default {
   text-align: center;
   color: #212121;
   margin: 0 auto;
+  margin-bottom: 125px;
   &__white {
     width: 621px;
-    height: 38px;
     font-family: 'Open Sans';
     font-size: 15px;
     line-height: 1.47;
@@ -44,6 +43,7 @@ export default {
     text-align: center;
     color: #fff;
     margin: 0 auto;
+    margin-bottom: 125px;
   }
 }
 </style>

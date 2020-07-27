@@ -1,9 +1,10 @@
 <template>
   <div class="works-catalog__wrapper-item">
     <WorksItem
-      v-for="WorksItem in WorksItems"
-      :key="WorksItem.article"
-      :WorksItem_data="WorksItem" 
+      v-for="item in WorksItems"
+      :key="item.id"
+      :item="item"
+      :WorksActive="WorksActive"
     />
   </div>
 </template>
@@ -19,43 +20,62 @@ export default {
     return {
       WorksItems: [
         {
+          id: '1',
           images: 'clock_lt_works.png',
           name: 'Hand Watch',
           tech: 'ui/ux design',
-          article: 'I1',
+          active: false,
         },
         {
+          id: '2',
           images: 'eat_lt_works.png',
           name: 'HELIO III',
           tech: 'Web Design',
-          article: 'I2',
+          active: false,
         },
         {
+          id: '3',
           images: 'shot_lt_works.png',
           name: 'Frank +Oak',
           tech: 'Web Design',
-          article: 'I3',
+          active: false,
         },
         {
+          id: '4',
           images: 'mischief_lt_works.png',
           name: 'Hand Watch',
           tech: 'Mockup',
-          article: 'I4',
+          active: false,
         },
         {
+          id: '5',
           images: 'wine_lt_works.png',
           name: 'Wine',
           tech: 'Mockup',
-          article: 'I5',
+          active: false,
         },
         {
+          id: '6',
           images: 'abag_lt_works.png',
           name: 'The Kitchens',
           tech: 'Mockup',
-          article: 'I6',
+          active: false,
         },
       ],
     };
+  },
+  methods: {
+    WorksActive(id) {
+      const filterItems = this.WorksItems.filter((item) => {
+        if (item.id === id) {
+          return (item.active = !item.active);
+        } else {
+          item.active = false;
+        }
+        return item;
+      });
+      return filterItems;
+    },
   },
 };
 </script>
@@ -67,7 +87,6 @@ export default {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   width: 1170px;
-  height: 770px;
   margin-bottom: 125px;
 }
 </style>

@@ -53,11 +53,11 @@ export default {
 .team-item__wrapper-block {
   margin-right: 30px;
   max-width: 370px;
-  height: 486px;
+
 }
 .team-item__block {
   width: 370px;
-  height: 486px;
+
 }
 .team__images {
   width: 370px;

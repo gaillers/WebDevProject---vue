@@ -155,6 +155,7 @@ export default {
     margin: 0 29.5% 0 30%;
     transition: all 0.6s ease 0s;
     cursor: pointer;
+    margin-bottom: 43px;
     & span {
       width: 121px;
       height: 14px;
@@ -308,7 +309,6 @@ export default {
     border: none;
     cursor: pointer;
     margin-right: 0px;
-    margin-top: 125px;
     transition: all 0.6s ease 0s;
     & span {
       width: 128px;

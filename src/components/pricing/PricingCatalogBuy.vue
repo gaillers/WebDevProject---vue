@@ -59,9 +59,7 @@ export default {
 .pricing-catalog__order-item{
    display: flex;
    justify-content: space-between;
-   padding-top: 125px;
    width: 1170px;
-   height: 668px;
 }
 
 </style>

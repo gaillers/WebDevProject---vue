@@ -37,14 +37,12 @@ export default {
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 1332px;
   background: url(/img/contact_bg.0c9c08b9.png);
   background-position: center;
   background-size: 100%;
 }
 .contact__container {
   width: 1030px;
-  height: 1082px;
   padding-top: 125px;
   margin-bottom: 125px;
 }

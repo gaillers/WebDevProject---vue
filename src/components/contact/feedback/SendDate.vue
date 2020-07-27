@@ -4,16 +4,16 @@
       <div class="date__block">
         <div class="obj__name">
           <label for="name" type="name" id="name" name="name">Name</label>
-          <p class="name-p"></p>
+          <input class="name-i" type="text">
         </div>
         <div class="obj__email">
           <label for="email" type="email" id="email" name="email">Email</label>
-          <p class="email-p"></p>
+          <input class="email-i" type="text">
         </div>
         <div class="obj__massage">
           <label for="massage" type="massage" id="massage" name="massage">Massage</label
           >
-          <p class="massage-p"></p>
+          <input class="massage-i" type="text">
         </div>
       </div>
     </div>
@@ -56,8 +56,17 @@ export default {
   width: 1030px;
   height: 608px;
   margin-top: 9%;
-  margin-left: 23.1%;
+  margin-left: 23.3%;
   border-radius: 1%;
+  & input {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-align: left;
+  }
   & label {
     font-family: 'Open Sans';
     font-size: 17px;
@@ -72,7 +81,6 @@ export default {
 .obj__name,
 .obj__email,
 .obj__massage {
-  margin-bottom: 50px;
   position: relative;
   &::after {
     position: absolute;
@@ -83,9 +91,9 @@ export default {
     top: 30px;
   }
 }
-.name-p,
-.email-p,
-.massage-p {
+.name-i,
+.email-i,
+.massage-i {
   max-width: 830px;
   width: 100%;
   font-family: 'Opan Sans';

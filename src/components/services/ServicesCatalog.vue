@@ -68,7 +68,5 @@ export default {
  grid-column-gap: 30px;
  grid-row-gap: 30px;
  width: 1170px;
- height: 906px;
- padding-top: 125px;
 }
 </style>

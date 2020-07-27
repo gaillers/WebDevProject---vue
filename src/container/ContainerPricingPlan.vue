@@ -30,12 +30,10 @@ export default {
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 1142px;
   background-color: #f0f1f1
 }
 .pricing__container {
   width: 1170px;
-  height: 892px;
   text-align: center;
   padding-top: 125px;
   margin-bottom: 125px;

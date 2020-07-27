@@ -25,7 +25,6 @@ export default {
 
 <style lang="scss">
 .title {
-  height: 23px;
   font-family: 'Open Sans';
   font-size: 30px;
   font-weight: bold;
@@ -36,7 +35,6 @@ export default {
   margin: 0 auto;
   margin-bottom: 36px;
   &__white {
-    height: 23px;
     font-family: 'Open Sans';
     font-size: 30px;
     font-weight: bold;

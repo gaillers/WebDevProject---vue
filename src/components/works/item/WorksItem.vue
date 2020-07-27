@@ -1,17 +1,17 @@
 <template>
   <div
     class="works-wrapper__item"
-    @click="bgOn = !bgOn"
-    :class="{ active: bgOn }"
+    @click="WorksActive(item.id)"
+    :class="{ active: item.active }"
   >
     <img
       class="item-about__images"
-      :src="require('../../../assets/images/' + WorksItem_data.images)"
+      :src="require('../../../assets/images/' + item.images)"
       alt="img"
     />
     <div class="bg">
-      <h4 class="bg__title">{{ WorksItem_data.name }}</h4>
-      <p class="bg__text">{{ WorksItem_data.tech }}</p>
+      <h4 class="bg__title">{{ item.name }}</h4>
+      <p class="bg__text">{{ item.tech }}</p>
     </div>
   </div>
 </template>
@@ -20,18 +20,22 @@
 export default {
   name: 'WorksItem',
   props: {
-    WorksItem_data: {
+    item: {
       type: Object,
       default() {
         return {};
       },
     },
+    WorksActive: {
+      type: Function,
+      default: () => ({}),
+    },
   },
   data() {
     return {
-      bgOn: false,
+      
     };
-  },
+  }
 };
 </script>
 

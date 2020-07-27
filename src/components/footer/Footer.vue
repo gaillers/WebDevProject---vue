@@ -15,12 +15,13 @@ export default {};
   display: flex;
   justify-content: center;
   width: 1920px;
-  height: 62px;
+  
   align-items: center;
   background-color: #fff;
 }
 .reserve {
-  height: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: 'Roboto';
   font-size: 20px;
   font-weight: bold;

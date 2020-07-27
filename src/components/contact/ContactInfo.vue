@@ -40,13 +40,11 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 958px;
-  height: 197px;
-  padding: 100px 0 80px 0;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 .item__block {
   width: 270px;
-  height: 200px;
 }
 .br__svg {
   width: 105px;

@@ -82,7 +82,5 @@ export default {
 <style lang="scss" scoped>
 .team-group__item {
   width: 1170px;
-  height: 626px;
-  padding-top: 125px;
 }
 </style>
