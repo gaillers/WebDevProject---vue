@@ -43,6 +43,7 @@ export default {
 }
 .contact__container {
   width: 1030px;
+  height: 1232px;
   padding-top: 125px;
   margin-bottom: 125px;
 }

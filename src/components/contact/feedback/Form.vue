@@ -35,7 +35,7 @@
       v-model="massage"
     ></textarea>
     <input class="send" type="submit" value="Send" />
-    <SendDate/>
+    <SendDate v-if="showPopup" :onClose="onClose"/>
   </form>
 </template>
 
@@ -52,17 +52,25 @@ export default {
       name: '',
       email: '',
       massage: '',
+      showPopup: false,
+      
     };
   },
   props: {},
-  methods: {},
+  methods: {
+    sendEmail () {
+      this.showPopup = true;
+    },
+    onClose () {
+      this.showPopup = false;
+    }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .form {
   width: 1030px;
-  height: 608px;
 }
 .form-label {
   width: 117px;
