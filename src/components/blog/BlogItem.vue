@@ -20,7 +20,26 @@
         </p>
       </div>
     </div>
-    
+    <div class="block-post__item">
+      <div class="post-item__inf">
+        <h3 class="post-item__title">{{ BlogPostItem_data.title }}</h3>
+        <div class="post-item__blk">
+          <Calendar />
+          <h4 class="data__name">{{ BlogPostItem_data.data }}</h4>
+          <Document />
+          <h4 class="dev__name">{{ BlogPostItem_data.dev }}</h4>
+        </div>
+        <p class="post-item__text">
+          {{ BlogPostItem_data.text }}
+        </p>
+      </div>
+      <div class="post-item__image">
+        <img
+          :src="require('../../assets/images/' + BlogPostItem_data.images)"
+          alt="png"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -49,14 +68,13 @@ export default {
 .block-post__item {
   display: flex;
   height: 400px;
-  width: 1170px;
 }
 .post-item__image {
   width: 570px;
   height: 400px;
 }
 .post-item__inf {
-  padding: 60px 30px 60px 30px;
+  padding: 75px;
 }
 .post-item__title {
   width: 280px;

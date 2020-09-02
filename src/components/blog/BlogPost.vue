@@ -54,7 +54,6 @@ export default {
 
 <style lang="scss">
 .blog__block-post {
-  width: 1170px;
   text-align: center;
   margin-bottom: 125px;
 }

@@ -36,7 +36,6 @@ export default {
   background-color: #e4fdf9;
 }
 .blog__container {
-  width: 1170px;
   padding-top: 125px;
   margin-bottom: 125px;
   text-align: center;
