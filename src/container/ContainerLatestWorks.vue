@@ -48,7 +48,7 @@ export default {
 .works {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
 }
 .works__container {
   width: 1170px;

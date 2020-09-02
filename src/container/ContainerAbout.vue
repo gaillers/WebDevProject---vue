@@ -30,7 +30,7 @@ export default {
 .about {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
 }
 .about__container {
   width: 1115px;

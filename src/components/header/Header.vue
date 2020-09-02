@@ -27,7 +27,7 @@ export default {
 .header {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
   height: 120px;
   background-color: #ffffff;
   align-items: center;

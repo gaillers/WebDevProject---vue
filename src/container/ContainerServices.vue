@@ -28,7 +28,7 @@ export default {
 .services {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
   background-color: #e4fdf9;
 }
 .services__container {

@@ -29,7 +29,7 @@ export default {
 .team {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
   height: 1095px;
 }
 .team__container {

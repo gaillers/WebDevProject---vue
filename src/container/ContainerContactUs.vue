@@ -36,7 +36,7 @@ export default {
   position: relative;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1920px;
   background: url(/img/contact_bg.0c9c08b9.png);
   background-position: center;
   background-size: 100%;
