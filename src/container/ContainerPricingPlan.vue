@@ -29,7 +29,7 @@ export default {
 .pricing {
   display: flex;
   justify-content: center;
-  width: 1920px;
+  width: 100%;
   background-color: #f0f1f1
 }
 .pricing__container {

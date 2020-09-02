@@ -32,7 +32,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1920px;
+  width: 100%;
   height: 835px;
   background: url('../assets/images/header_image_rectangle.png') no-repeat;
   background-position: center;

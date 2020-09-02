@@ -27,7 +27,7 @@ export default {
 .header {
   display: flex;
   justify-content: center;
-  width: 1920px;
+  width: 100%;
   height: 120px;
   background-color: #ffffff;
   align-items: center;
@@ -36,7 +36,6 @@ export default {
   display: flex;
   justify-content: space-between;
   width: 1400px;
-  height: 120px;
   align-items: center;
 }
 </style>

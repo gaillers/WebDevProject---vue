@@ -35,7 +35,7 @@
       v-model="massage"
     ></textarea>
     <input class="send" type="submit" value="Send" />
-    <SendDate v-if="showPopup" :onClose="onClose"/>
+    <SendDate v-if="showPopup" :onCglose="onClose"/>
   </form>
 </template>
 
